@@ -31,8 +31,12 @@ class _TelaInicioState extends State<TelaInicio> {
     'Lazer': Icons.beach_access,
     'Salário': Icons.monetization_on,
     'Investimentos': Icons.trending_up,
-    'Meio Período': Icons.access_time,
+    'Extras': Icons.access_time,
     'Prêmios': Icons.card_giftcard,
+    'Salários': Icons.money_off,
+    'Academia/Esportes': Icons.sports,
+    'Outras Despesas': Icons.account_box,
+    
   };
 
   // Armazena o ano e mês selecionados

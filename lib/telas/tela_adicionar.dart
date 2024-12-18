@@ -41,8 +41,23 @@ class TelaAdicionarState extends State<TelaAdicionar> {
         label: 'Estimação',
       ),
       CustomIconButton(
-        icon: Icons.directions_car,
-        label: 'Carro',
+        icon: Icons.house_outlined,
+        label: 'Aluguel',
+      ),
+
+       CustomIconButton(
+        icon: Icons.account_box,
+        label: 'Outras Despesas',
+      ),
+
+       CustomIconButton(
+        icon: Icons.money_off,
+        label: 'Salários',
+      ),
+
+       CustomIconButton(
+        icon: Icons.sports_bar,
+        label: 'Academia/Esportes',
       ),
       CustomIconButton(
         icon: Icons.local_hospital,
@@ -77,7 +92,7 @@ class TelaAdicionarState extends State<TelaAdicionar> {
       ),
       CustomIconButton(
         icon: Icons.access_time,
-        label: 'Meio Período',
+        label: 'Extras',
       ),
       CustomIconButton(
         icon: Icons.card_giftcard,

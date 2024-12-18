@@ -1,6 +1,6 @@
 {
-    "name": "controle_financeiro",
-    "short_name": "controle_financeiro",
+    "name": "allenfinance",
+    "short_name": "allenfinance",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

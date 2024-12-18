@@ -1,1 +1,39 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"allenfinance-11598","appId":"1:570159766756:android:b658517c3338260c85a0f1","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"allenfinance-11598","configurations":{"android":"1:570159766756:android:b658517c3338260c85a0f1","ios":"1:570159766756:ios:c89a736fb769d3bb85a0f1","macos":"1:570159766756:ios:c89a736fb769d3bb85a0f1","web":"1:570159766756:web:585531af538b549685a0f1","windows":"1:570159766756:web:c378ce3cd2fc75a785a0f1"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "allenfinance-11598",
+          "appId": "1:570159766756:android:b658517c3338260c85a0f1",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "allenfinance-11598",
+          "configurations": {
+            "android": "1:570159766756:android:b658517c3338260c85a0f1",
+            "ios": "1:570159766756:ios:c89a736fb769d3bb85a0f1",
+            "macos": "1:570159766756:ios:c89a736fb769d3bb85a0f1",
+            "web": "1:570159766756:web:585531af538b549685a0f1",
+            "windows": "1:570159766756:web:c378ce3cd2fc75a785a0f1"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

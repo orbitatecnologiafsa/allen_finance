@@ -46,7 +46,8 @@ class _TelaGraficoState extends State<TelaGrafico> {
                         '2022',
                         '2023',
                         '2024',
-                        '2025'
+                        '2025',
+                        '2026'
                       ].map<DropdownMenuItem<String>>((String value) {
                         return DropdownMenuItem<String>(
                           value: value,
